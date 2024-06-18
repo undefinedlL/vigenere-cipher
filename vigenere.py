@@ -1,5 +1,4 @@
 # upper_letters: 65-90
-# lower_letters: 97-122
 
 def encrypt(text, keys, key_index=0, translated=''):
     if len(text) == 0: 
@@ -34,8 +33,3 @@ def translate_text(text, key, mode):
         return encrypt(text, keys)
     elif mode == 'decrypt':
         return decrypt(text, keys)
-        
-    
-
-
-    
